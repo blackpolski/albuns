@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/acao_editar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Editar"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/acao_apagar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="Apagar"
+        app:showAsAction="always|withText" />
+</menu>
